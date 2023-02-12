@@ -28,7 +28,7 @@ pair pairs[MAX * (MAX - 1) / 2]; // from candidate , maximum pairs can get
 int pair_count; // num of pairs in pair array i guess
 int candidate_count;
 
-// Function prototypes
+// Function  prototypes
 bool vote(int rank, string name, int ranks[]);
 bool is_cycle(int winner, int loser); // my special function
 void record_preferences(int ranks[]);
