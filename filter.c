@@ -45,7 +45,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
 
-    // copying image pixel by pixel nested loop @@
+    // copying image pixel by pixel nested loop  @@
 
     RGBTRIPLE copy[height][width];
     for (int row = 0; row < height; row++)
