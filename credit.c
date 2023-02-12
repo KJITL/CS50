@@ -75,7 +75,7 @@ int main(void)
         }
         //printf("%i\n",length);
 
-        //check what this length belong to
+        //check what this length belong  to
 
         // chech if its length 15 , and if wee take first two dijits is equal to 34 or 37
         if ((length == 15) && ((int)(copyCredit / pow(10, 13)) == 34 || (int)(copyCredit / pow(10, 13)) == 37)) //if american express
