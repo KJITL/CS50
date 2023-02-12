@@ -10,7 +10,7 @@ void ciphertext(string plaintext, int key);
 int main(int argc, string argv[])
 {
 
-    if (argc != 2) // if number of argumnets not 2
+    if (argc != 2) // if number of argumnets not 2  
     {
         printf("Usage: ./caesar key\n");
         return 1;
@@ -52,7 +52,7 @@ void ciphertext(string plaintext, int key)
         if (isalpha(plaintext[i])) // check if alphabitical
         {
 
-            // if it lower case char
+            // if it lower case  char
             if (islower(plaintext[i]))
             {
                 if ((int)(plaintext[i] + key) > 122)
